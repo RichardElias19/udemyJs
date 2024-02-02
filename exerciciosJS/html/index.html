@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios</title>
+    <style>
+        #conteudo {
+            padding: 30px 0px;
+
+        }
+        a {
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>exercicios HTML</h1>
+    </header>
+    <nav>
+        <a href="exercicios/teste.html"> 00 - teste</a> |
+        <a href="exercicios/texto1.html"> 01 - texto1</a> |
+        <a href="exercicios/texto2.html"> 02 - texto2</a>  |
+        <a href="exercicios/lista.html"> 03 - lista</a>  |
+        <a href="exercicios/listaaninhada.html"> 04 - lista Aninhada</a>  |
+        <a href="exercicios/listaAninhadaTeste.html"> 05 - lista aninhada teste</a>  |
+        <a href="exercicios/links.html"> 06 - links</a>  |
+        <a href="exercicios/tabela.html"> 07 - tabela</a>  |
+        <a href="exercicios/form/form.html"> 08 - formulario</a>  |
+        <a href="exercicios/imagens.html"> 09 - imagens</a>  |
+        <a href="exercicios/video.html"> 10 - video</a>  |
+        <a href="exercicios/tagsnaovisuais.html"> 10 - Tags nao visuais</a>  |
+    </nav>
+    <section id="conteudo"></section>
+    <footer>
+       &copy;CursoUdemy
+    </footer>
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            const conteudo = document.getElementById('conteudo')
+
+            link.onclick = function(e) {
+                e.preventDefault()
+                fetch(link.href)
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+</body>
+</html>

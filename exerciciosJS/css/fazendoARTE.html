@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .question-container {
+            text-align: center;
+            box-shadow: 0 10px 100px 0 rgb(0, 0, 0.3);
+            
+        }
+
+        button {
+            font-size: 16px;
+            margin: 10px;
+            padding: 8px 16px;
+            cursor: pointer;
+            background-color: rgb(203, 80, 80);
+        }
+
+        #response {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+       .question-container h1 {
+            background-color: rgb(102, 233, 233);
+       }
+       .question-container h2 {
+        background-color: rgb(74, 213, 167);
+       }
+    </style>
+</head>
+
+<body>
+
+    <div class="question-container">
+        <h1>Eae chatinha </h1>
+        <h2>Ei sinto falta de vc Troll!</h2>
+        <button id="yesBtn">Sim</button>
+        <button id="noBtn">Não</button>
+        <p id="response"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('yesBtn').addEventListener('click', function () {
+            document.getElementById('response').innerHTML = 'Sim, seu troll!';
+        });
+
+        document.getElementById('noBtn').addEventListener('click', function () {
+            document.getElementById('response').innerHTML = 'Não, vc e chato.';
+        });
+    </script>
+</body>
+
+</html>

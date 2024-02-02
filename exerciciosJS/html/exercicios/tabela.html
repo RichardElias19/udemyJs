@@ -1,0 +1,57 @@
+<h1>tabela</h1>
+
+<table style="text-align: center;">
+    <caption>produtos</caption>
+    <thead>
+        <tr> <!--coluna-->
+            <th>produto</th> <!-- coluna do thead-->
+            <th>preço</th>
+            <th>quantidade</th>
+            <th>total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ipad</td> ,! <!--coluna do tbody-->
+            <td>3289,00</td>
+            <td>5</td>
+            <td>16445,00</td>
+        </tr>
+        <tr>
+            <td>iphone</td>
+            <td>2649,00</td>
+            <td>8</td>
+            <td>21192,00</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">total</td>
+            <td>37637,00</td>
+        </tr>
+    </tfoot>
+</table>
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+
+    thead tr {
+        border-collapse: solid 3px #444;
+    }
+
+    tbody tr:hover {
+        background-color: dodgerblue;
+    }
+
+    tfoot {
+        background-color: #444;
+        color: #ffffff;
+        font-weight: bold;
+    }
+</style>
