@@ -24,4 +24,4 @@ const geometrica = (a1, n, r) => { // com uma arrow fuction
 }
 
 
-geometrica(2, 5, 3)
+geometrica(2, 7, 3)
