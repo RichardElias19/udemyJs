@@ -1,0 +1,196 @@
+<--SUMARIO-->
+01 exercícios de aritimética
+
+02 exercícios de if
+
+03 exercícios de if e else
+
+04 exercícios de if, else if e else
+
+05 exercícios de array
+
+06 exercícios de objeto
+
+07 exercícios de for
+
+08 exercícios de for in
+
+09 exercícios de while
+
+10 exercícios de doWhile
+
+11 exercícios de switch
+
+12 exercícios de function
+
+13 exercícios de arrow function
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+1 - exercícios de ARITMÉTICA
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Calcule e imprima a soma de dois números.
+002 Determine e exiba o produto de dois números.
+003 Descubra e mostre a diferença entre dois números.
+004 Divida dois números e exiba o resultado.
+005 Encontre o quadrado de um número e imprima o resultado.
+006 Calcule a raiz quadrada de um número e mostre o resultado.
+007 Determine o resto da divisão de um número por outro e imprima o resultado.
+008 Verifique se um número é par ou ímpar e exiba o resultado.
+009 Compare dois números e imprima o maior deles.
+010 Converta um valor em reais para dólares com uma taxa de câmbio fixa e exiba o resultado.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+2 - exercícios de IF
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Verifique se um número é positivo e, se for, exiba uma mensagem correspondente.
+002 Determine se um número é par e, se for, exiba uma mensagem apropriada.
+003 Verifique se um número é maior que 10 e, se for, imprima uma mensagem.
+004 Determine se um número é igual a 0 e, se for, mostre uma mensagem específica.
+005 Verifique se uma variável é verdadeira e, se for, exiba uma mensagem.
+006 Determine se um número é menor que 100 e, se for, imprima uma mensagem.
+007 Verifique se uma string está vazia e, se estiver, mostre uma mensagem apropriada.
+008 Determine se um número é negativo e, se for, exiba uma mensagem correspondente.
+009 Verifique se uma variável é do tipo string e, se for, imprima uma mensagem.
+010 Determine se um número é múltiplo de 3 e, se for, mostre uma mensagem.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+3 - exercícios de IF e ELSE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Verifique se um número é positivo. Se for, exiba uma mensagem correspondente; caso contrário, exiba outra mensagem.
+002 Determine se um número é par. Se for, imprima uma mensagem indicando que é par; caso contrário, imprima que é ímpar.
+003 Verifique se um número é maior que 10. Se for, exiba uma mensagem informando que é maior que 10; caso contrário, informe que não é maior que 10.
+004 Determine se um número é igual a 0. Se for, imprima uma mensagem específica informando que é igual a zero; caso contrário, não imprima nada.
+005 Verifique se uma variável booleana é verdadeira. Se for, exiba uma mensagem indicando que é verdadeira; caso contrário, exiba uma mensagem indicando que é falsa.
+006 Determine se um número é menor que 100. Se for, imprima uma mensagem indicando que é menor que 100; caso contrário, não imprima nada.
+007 Verifique se uma string está vazia. Se estiver vazia, imprima uma mensagem informando que a string está vazia; caso contrário, não imprima nada.
+008 Determine se um número é negativo. Se for negativo, exiba uma mensagem indicando que é negativo; caso contrário, exiba uma mensagem indicando que não é negativo.
+009 Verifique se uma variável é do tipo string. Se for, imprima uma mensagem indicando que é uma string; caso contrário, não imprima nada.
+010 Determine se um número é múltiplo de 3. Se for, exiba uma mensagem indicando que é múltiplo de 3; caso contrário, exiba uma mensagem indicando que não é múltiplo de 3.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+4 - exercícios de IF, ELSE IF, ELSE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Verifique se um número é positivo, negativo ou zero e exiba uma mensagem correspondente.
+002 Determine se um número é positivo, negativo ou zero e exiba uma mensagem específica para cada caso.
+003 Classifique um aluno com base em sua nota: se a nota for maior ou igual a 7, exiba "Aprovado"; se for maior ou igual a 5, exiba "Recuperação"; caso contrário, exiba "Reprovado".
+004 Determine o tipo de triângulo com base em três comprimentos de lados fornecidos: equilátero, isósceles ou escaleno.
+005 Categorize um ano como bissexto ou não-bissexto.
+006 Verifique se um número é par ou ímpar e exiba uma mensagem correspondente.
+007 Determine o maior de três números e exiba-o.
+008 Verifique se um número é divisível por 3 e/ou 5 e exiba uma mensagem apropriada.
+009 Determine se um caractere fornecido é uma vogal ou consoante.
+010 Classifique um número em intervalos predefinidos: 0-25, 26-50, 51-75 e 76-100.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+5 - exercícios de ARRAY
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Crie um array com cinco cores diferentes e imprima cada cor no console.
+002 Defina um array com os nomes de cinco países e exiba-os no console.
+003 Crie um array com cinco números e calcule a soma deles.
+004 Defina um array com os nomes de cinco frutas e exiba a quantidade de frutas no array.
+005 Crie um array vazio e adicione três números usando o método push(). Em seguida, exiba o array no console.
+006 Defina um array com cinco números e calcule a média deles.
+007Crie um array com nomes de cinco cidades e ordene-os em ordem alfabética.
+008 Defina um array com cinco nomes e verifique se o nome "Maria" está presente no array.
+009 Crie um array com cinco números e substitua o terceiro número por 0.
+010 Defina um array com cinco elementos e remova o último elemento do array.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+6 - exercícios de OBJETO
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Crie um objeto chamado pessoa com propriedades como nome, idade e profissão.
+002 Defina um objeto carro com propriedades como marca, modelo e ano.
+003 Crie um objeto livro com propriedades como título, autor e número de páginas.
+004 Implemente um objeto cachorro com propriedades como raça, cor e idade.
+005 Defina um objeto computador com propriedades como marca, processador e memória RAM.
+006 Crie um objeto filme com propriedades como título, diretor e ano de lançamento.
+007 Implemente um objeto aluno com propriedades como nome, nota e disciplina.
+008 Defina um objeto restaurante com propriedades como nome, tipo de culinária e endereço.
+009 Crie um objeto telefone com propriedades como marca, modelo e cor.
+010 Implemente um objeto cidade com propriedades como nome, estado e população.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+7 - exercícios de FOR
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Crie um for para imprimir os números de 1 a 10.
+002 Utilize um for para imprimir os números pares de 2 a 20.
+003 Implemente um for para calcular a soma dos números de 1 a 100.
+004 Utilize um for para imprimir os números ímpares de 1 a 15.
+005 Crie um for para imprimir a tabuada do 5 (de 5 até 50).
+006 Implemente um for para imprimir os números de trás para frente de 10 até 1.
+007 Utilize um for para calcular o fatorial de um número fornecido pelo usuário.
+008 Implemente um for para imprimir os números primos de 1 a 50.
+009 Crie um for para imprimir os elementos de um array de strings.
+010 Utilize um for para calcular a média dos elementos de um array de números.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+8 - exercícios de FOR IN
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Itere sobre as propriedades de um objeto e imprima seus valores.
+002 Percorra as chaves de um objeto e exiba seus nomes.
+003 Utilize o for in para iterar sobre os índices de um array e exibir seus valores.
+004 Itere sobre as propriedades de um objeto e verifique se alguma delas possui um valor específico.
+005 Percorra as propriedades de um objeto e calcule a soma dos valores numéricos, excluindo aquelas que não são números.
+006 Utilize o for in para iterar sobre um objeto e converter todas as suas strings para maiúsculas, caso a propriedade seja uma string.
+007 Percorra as propriedades de um objeto e verifique se alguma delas é uma função.
+008 Itere sobre um objeto e verifique se todas as suas propriedades têm valores numéricos.
+009 Utilize o for in para iterar sobre um objeto e calcular o produto de todos os valores numéricos, excluindo as propriedades que não são números.
+010 Percorra as chaves de um objeto e verifique se alguma delas começa com um determinado prefixo, caso a propriedade seja uma string.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+9 - exercícios de WHILE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Implemente um loop while para imprimir os números de 1 a 10.
+002 Utilize um loop while para imprimir os números pares de 2 a 20.
+003 Implemente um loop while para calcular a soma dos números de 1 a 100.
+004 Utilize um loop while para imprimir os números ímpares de 1 a 15.
+005 Implemente um loop while para imprimir a tabuada do 5 (de 5 até 50).
+006 Utilize um loop while para imprimir os números de trás para frente de 10 até 1.
+007 Implemente um loop while para calcular o fatorial de um número fornecido pelo usuário.
+008 Utilize um loop while para imprimir os números primos de 1 a 50.
+009 mplemente um loop while para imprimir os elementos de um array de strings.
+010 Utilize um loop while para calcular a média dos elementos de um array de números.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+10 - exercícios de DO WHILE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Utilize um loop do while para imprimir os números de 1 a 10.
+002 Implemente um loop do while para imprimir os números pares de 2 a 20.
+003 Utilize um loop do while para calcular a soma dos números de 1 a 100.
+004 Implemente um loop do while para imprimir os números ímpares de 1 a 15.
+005 Utilize um loop do while para imprimir a tabuada do 5 (de 5 até 50).
+006 Implemente um loop do while para imprimir os números de trás para frente de 10 até 1.
+007 Utilize um loop do while para calcular o fatorial de um número fornecido pelo usuário.
+008 Implemente um loop do while para imprimir os números primos de 1 a 50.
+009 Utilize um loop do while para imprimir os elementos de um array de strings.
+010 Implemente um loop do while para calcular a média dos elementos de um array de números.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+11 - exercícios de SWITCH
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Crie um switch que verifique o dia da semana e imprima uma mensagem correspondente.
+002 Utilize um switch para determinar o mês com base no número do mês e exibir o nome completo do mês.
+003 Implemente um switch que verifique o código de erro e imprima uma mensagem de erro correspondente.
+004 Crie um switch que determine o tipo de figura geométrica com base em um código fornecido e exiba o nome da figura.
+005 Utilize um switch para determinar o idioma com base em um código de idioma e exibir o nome do idioma.
+006 Implemente um switch que verifique o tipo de conta bancária e exiba o nome do banco correspondente.
+007 Crie um switch que determine o tipo de operação matemática (adição, subtração, multiplicação, divisão) e exiba o resultado da operação.
+008 Utilize um switch para determinar o tipo de carro com base no modelo e exibir o nome da marca.
+009 Implemente um switch que verifique o tipo de comida com base em um código e exiba o nome da comida.
+010 Crie um switch que determine o tipo de produto com base no código e exiba o nome do produto.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+12 - exercícios de FUNCTION
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Escreva uma função que receba dois números como parâmetros e retorne a soma deles.
+002 Crie uma função que calcule e retorne o dobro de um número.
+003 Defina uma função que receba três números como parâmetros e retorne a média deles.
+004 Escreva uma função que calcule e retorne o quadrado de um número.
+005 Crie uma função que receba um número e verifique se ele é par. Retorne true se for par, false caso contrário.
+006 Defina uma função que receba um valor em reais e retorne o equivalente em dólares, considerando uma taxa de câmbio fixa.
+007 Escreva uma função que receba dois números e retorne o maior deles.
+008 Crie uma função que calcule e retorne o fatorial de um número.
+009 Defina uma função que receba um número e retorne true se ele for positivo e false se for negativo.
+010 Escreva uma função que receba dois valores e retorne o resto da divisão do primeiro pelo segundo.
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+13 - exercícios de ARROW FUNCTION
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+001 Crie uma arrow function que receba dois números como parâmetros e retorne a soma deles.
+002 Implemente uma arrow function que calcule e retorne o dobro de um número.
+003 Escreva uma arrow function que receba três números como parâmetros e retorne a média deles.
+004 Desenvolva uma arrow function que calcule e retorne o quadrado de um número.
+005 Crie uma arrow function que receba um número e verifique se ele é par. Retorne true se for par, false caso contrário.
+006 Implemente uma arrow function que receba um valor em reais e retorne o equivalente em dólares, considerando uma taxa de câmbio fixa.
+007 Escreva uma arrow function que receba dois números e retorne o maior deles.
+008 Crie uma arrow function que calcule e retorne o fatorial de um número.
+009 Defina uma arrow function que receba um número e retorne true se ele for positivo e false se for negativo.
+010 Desenvolva uma arrow function que receba dois valores e retorne o resto da divisão do primeiro pelo segundo.

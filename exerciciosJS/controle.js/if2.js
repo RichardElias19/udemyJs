@@ -9,7 +9,7 @@ teste1(8)
 
 function teste2(num) {
     if(num > 7); { //cuidado com o ; 
-        console.log(mum)
+        console.log(num)
     }
 }
 
