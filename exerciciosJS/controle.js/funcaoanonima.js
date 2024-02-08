@@ -15,10 +15,10 @@ imprimirResultado(3, 4, (x, y) => x * y)
 
 const pessoa = {
     falar: function () {
-        console.log('lorao')
+        console.log('luiz')
     },
     falar2() {
-        console.log('é viada')
+        console.log('acertou')
     }
 }
 
