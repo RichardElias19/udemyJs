@@ -1,18 +1,45 @@
+// Cadeia de protótipos (prototype chain)
+Object.prototype.attr0 = '0' // NÃO FAÇA
+
+const avo = { attr1: 'A' }
+const pai = { proto: avo, attr2: 'B' }
+const filho = { proto: pai, attr3: 'C' }
+console.log(filho.attr0, filho.attr1, filho.attr2, filho.attr3,)
+
+const carro = {
+    velAtual: 0,
+    velMax: 200,
+    acelerarMais(delta){
+        if(this.velAtual + delta <= this.velMax){
+            this.velAtual += delta
+        } else {
+            this.velAtual = this.velMax
+        }
+    },
+    status() {
+        return `${this.velAtual}Km/h de ${this.velMax}Km/h`
+    }
+}
+
 const ferrari = {
     modelo: 'F40',
-    velMax: 324
+    velMax: 324 // shadowing
 }
+
 const volvo = {
     modelo: 'V40',
-    velMax: 200
+    status() {
+        return `${this.modelo}: ${super.status()}`
+    }
 }
+Object.setPrototypeOf(ferrari, carro)
+Object.setPrototypeOf(volvo, carro)
 
-console.log(ferrari.prototype) // prototype so serve para pegar array
-console.log(ferrari.__proto__)// pra objeto serve esse proto_
-console.log(ferrari.__proto__ === Object.prototype)
-console.log(volvo.__proto__ === Object.prototype)
-console.log(Object.prototype.__proto__ === null)
+console.log(ferrari)
+console.log(volvo)
 
-function meuObjeto() {}
-console.log(typeof Object, typeof meuObjeto)
-console.log(Object.prototype, meuObjeto.prototype)
+volvo.acelerarMais(100)
+console.log(volvo.status())
+
+ferrari.acelerarMais(300)
+console.log(ferrari.status())
